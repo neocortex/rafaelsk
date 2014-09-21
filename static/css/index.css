@@ -7,10 +7,10 @@ body {
 }
 
 .jumbotron {
-    padding-top: 150px;
-    padding-bottom: 400px;
-    color: white;
-    background: transparent;
+  padding-top: 150px;
+  padding-bottom: 400px;
+  color: white;
+  background: transparent;
 }
 
 .navbar {
@@ -29,9 +29,9 @@ body {
 }
 
 #about {
-      text-align: center;
-      padding-left: 300px;
-      padding-right: 300px;
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .bg {
@@ -82,7 +82,7 @@ hr {
 }
 
 .nb-item {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 a {
