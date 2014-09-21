@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Personal Webpage">
     <meta name="author" content="Rafael Schultze-Kraft">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="/static/img/favicon.ico">
 
     <title>Dating Python</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <!-- Some extra Glyphicons-->
-    <link href="dist/css/bootstrap.icon-large.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet" >
     <!-- Custom styles for this template -->
-    <link href="dist/css/index.css" rel="stylesheet">
+    <link href="/static/css/index.css" rel="stylesheet">
   </head>
 
   <body>
+    <!-- Navigation -->
     <div class="navbar navbar-default navbar-fixed-top navbar-ex1-collapse" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,69 +34,98 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="page-scroll"><a href="#about"></span> About</a></li>
-            <li><a href="#contact"> Contact</a></li>
+            <li><a href="#notebooks-anchor"></span> Notebooks</a></li>
+            <li><a href="#about-anchor"></span> About</a></li>
+            <li><a href="#contact-anchor"> Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
 
+    <div class="bg"></div>
+    <!-- Jumbotron -->
     <div>
         <div class="jumbotron">
             <center>
             <h1>Dating Python</h1>
-            <p>Data, Python & Me: A love story</p>
+            <p>Data &nbsp;&bull;&nbsp; Python &nbsp;&bull;&nbsp; More</p>
             </center>
         </div>
     </div>
-    <div class="container">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis mattis est, in mattis magna. Maecenas justo nibh, commodo vel quam eget, luctus malesuada lectus. Morbi diam nisl, sodales in condimentum at, sodales at lectus. Curabitur tristique lorem nisi, a dictum massa hendrerit a. In hac habitasse platea dictumst. Maecenas id lacus urna. Donec tristique vel enim vitae aliquet. Duis ipsum nunc, blandit id accumsan efficitur, euismod nec erat. Etiam suscipit, metus a aliquet facilisis, augue dolor rhoncus libero, nec porta ante turpis vitae nisl. Maecenas lacinia dolor vitae arcu sodales, ut pharetra neque blandit.
-            Mauris id velit nulla. Cras accumsan convallis turpis, vitae imperdiet felis posuere ut. Phasellus viverra sem feugiat turpis auctor elementum. Mauris fermentum nisi ut convallis bibendum. Nunc lorem urna, cursus ac semper in, vehicula a elit. Duis gravida commodo lectus et vestibulum. Aenean lacinia odio ipsum. Cras bibendum vel tellus vitae dictum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque eget euismod lorem. Quisque sit amet accumsan justo, non suscipit ante. Praesent et lorem vel mauris molestie scelerisque. Donec semper felis dictum est maximus malesuada. Aliquam non erat ante. In venenatis quam id lacinia placerat.
-            Vestibulum lobortis congue purus in ornare. Aenean maximus turpis nec nibh ornare, vitae varius justo posuere. Sed ac laoreet diam. Quisque id lorem vitae libero ultricies vulputate et gravida nisl. Maecenas et massa rhoncus eros condimentum mattis. In id dictum sapien. Pellentesque ullamcorper ex ac enim tristique, nec varius libero tempor.
-        </p>
-    <div/>
 
+    <!-- Notebooks -->
+    <span class="anchor" id="notebooks-anchor"></span>
+    <section class="success">
+        <div>
+            <h2>Notebooks</h2>
+                <p>This is a small collection of IPython notebooks I have been working on.</p>
+                <ul id="notebook-list">
+                    <li class="nb-item"><a href="http://nbviewer.ipython.org/github/neocortex/notebooks/blob/master/kaggle-data-science-london/Kaggle%20-%20Data%20Science%20London.ipynb">
+                    An entry to the Kaggle Data Science London Competition
+                    </a> </li>
+                    <li class="nb-item"><a href="http://nbviewer.ipython.org/github/neocortex/notebooks/blob/master/kaggle-titanic/Kaggle%20-%20Titanic.ipynb">
+                    An entry to the Kaggle Titanic Competition
+                    </a> </li>
+                    <li class="nb-item"><a href="http://nbviewer.ipython.org/github/neocortex/notebooks/blob/master/foursquare/3%20-%20Berlin%20Nightlife%20II.ipynb">
+                    An analysis of Berlin's nightlife with Foursquare date
+                    </a> </li>
+                    <li class="nb-item"><a href="http://nbviewer.ipython.org/github/neocortex/notebooks/blob/master/ipython-parallel/IPython%20Parallel.ipynb">
+                    An exploration of parallalizing processes with IPython.parallel
+                    </a> </li>
+                    <li class="nb-item"><a href="http://nbviewer.ipython.org/github/neocortex/notebooks/blob/master/mle-in-sympy/Bernoulli%20and%20Binomial.ipynb">
+                    Testing SymPy with an example of Maximum Likelihood Estimation
+                    </a> </li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- About -->
     <hr>
+    <span class="anchor" id="about-anchor"></span>
     <section class="success" id="about">
         <div>
             <h2>About</h2>
             <center>
-             <a href="#"><img class="img-responsive img-circle" src="binary.png"></a>
+             <a href="#"><img class="img-responsive img-circle"
+                          src="static/img/binary.png"></a>
             </center>
             <p>
-            Hi there, I am Rafael. I am an ex-neuroscientist, machine learning and data enthusiast, and Python lover. Hence the name of this webpage. And because I wanted to code a webpage and had to give it a name.
+            Hi, I am Rafael. I am an ex-neuroscientist, machine learning and data enthusiast, and Python lover. Hence the name of this webpage. And because I wanted to code a webpage and had to give it a name.
 
-            I live in Berlin and I work as a research and data scientist for <a href="http://www.eyequant.com">EyeQuant</a>.
+            I live in Berlin and I work as a research and data scientist for
+            <a href="http://www.eyequant.com">EyeQuant</a>.
             </p>
         </div>
     </section>
 
+    <!-- Contact -->
     <hr>
+    <span class="anchor" id="contact-anchor"></span>
     <section class="success" id="contact">
         <div>
         <center>
         <h2>Contact</h2>
-        <a href="https://github.com/neocortex">
-            <i class="icon-large icon-github"></i>
+        <a href="https://github.com/neocortex" title="My GitHub Home">
+            <i class="fa fa-github-square fa-3x"></i>
         </a>
-        <a href="http://de.linkedin.com/pub/rafael-schultze-kraft/93/44b/9a0">
-            <i class="icon-large icon-linked-in"></i>
+        <a href="http://de.linkedin.com/pub/rafael-schultze-kraft/93/44b/9a0" title='My LinkedIn Home'>
+            <i class="fa fa-linkedin-square fa-3x"></i>
         </a>
-        <a href="mailto:rafael@eyequant.com" target="_top">
-            <i class="icon-large icon-envelope"></i>
+        <a href="mailto:rafael@eyequant.com" target="_top" title="Send me an Email">
+            <i class="fa fa-envelope-square fa-3x"></i>
         </a>
         </center>
         </div>
     </section>
 
+    <!-- Footer -->
     <hr>
     <footer>
         <div class="container">
         <div class="row">
             <center>
-                <div class="col-md-4"> </div>
-                <div class="col-md-4">&copy; 2014 Rafael Schultze-Kraft</div>
+            <div class="col-md-4"> </div>
+            <div id="footer" class="col-md-4">Copyright &copy; 2014 Rafael Schultze-Kraft</div>
             </center>
         </div>
         </div>
@@ -104,6 +134,7 @@
     <!-- JQuery and Bootstrap core JavaScript
          Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="/static/s/bootstrap.min.js"></script>
+    <script src="/static/js/index.js"></script>
   </body>
 </html>
