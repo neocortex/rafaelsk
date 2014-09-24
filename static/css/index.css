@@ -1,21 +1,36 @@
 body {
   padding-top: 50px;
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
+  font-family: "Oswald", Helvetica, Arial, sans-serif!important;
   background: #E8DDCB;
   font-size: 20px;
   text-align: center;
 }
 
 .jumbotron {
-  padding-top: 150px;
-  padding-bottom: 400px;
-  color: white;
+  height: 800px;
+  padding-top: 250px;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   background: transparent;
+}
+
+.jumbotron h1 {
+  font-size: 90px;
+  font-weight: lighter;
+}
+
+.jumbotron h1 b{
+  font-size: 90px;
+  letter-spacing: 10px;
+}
+
+.jumbotron p {
+  font-size: 25px;
 }
 
 .navbar {
   font-weight: 70;
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
+  font-family: "Oswald", Helvetica, Arial, sans-serif!important;
   background: #036564;
 }
 
@@ -39,14 +54,15 @@ body {
 }
 
 .bg {
-  background: url('../img/009.JPG') no-repeat center center;
-  background-size: 100% 800px;
+  background: url('../img/018_n18.jpg') no-repeat center center;
+  background-size: 100% 900px;
   position: fixed;
   width: 100%;
-  height: 694px; /* Same height as jumbotron*/
+  height: 800px; /* Same height as jumbotron */
   top: 0;
   left: 0;
   z-index: -1;
+  padding-top: 50px;
 }
 
 hr {
