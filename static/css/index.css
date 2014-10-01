@@ -120,3 +120,9 @@ a:hover, a:focus {
   margin-top: -50px; /*same height as header*/
   visibility: hidden;
 }
+
+.date {
+  color: #031634;
+  font-weight: 100;
+  font-size: 15px;
+}
