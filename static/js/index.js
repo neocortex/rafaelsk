@@ -7,6 +7,14 @@ function parallax(){
 
 $(window).scroll(function(e){
     parallax();
+
+    if ($(document).scrollTop() > 50) {
+      $('nav').addClass('shrink');
+    }
+
+    else {
+      $('nav').removeClass('shrink');
+    }
 });
 
 function smoothScroll(navItem, e){

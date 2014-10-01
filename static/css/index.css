@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+nav {
+    transition: all 0.8s ease;
+}
+
 .jumbotron {
   height: 800px;
   padding-top: 250px;
@@ -31,12 +35,16 @@ body {
 .navbar {
   font-weight: 70;
   font-family: "Oswald", Helvetica, Arial, sans-serif!important;
-  background: #036564;
+  background: #031634;
 }
 
 .navbar-default .navbar-brand {
-  font-size: 1.5em;
+  font-size: 2.0em;
   color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: all 0.8s ease;
+
 }
 
 #brand-id:hover {
@@ -45,6 +53,10 @@ body {
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: all 0.8s ease;
 }
 
 #about {
@@ -125,4 +137,18 @@ a:hover, a:focus {
   color: #031634;
   font-weight: 100;
   font-size: 15px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 20px !important;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 1.5em !important;
+}
+
+nav.shrink {
+ background: #036564 !important;
 }
